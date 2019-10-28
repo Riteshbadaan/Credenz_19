@@ -1,0 +1,227 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.pisb.credenz19"
+5    android:versionCode="11"
+6    android:versionName="11.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:7:5-65
+12-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:7:22-62
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:8:5-66
+13-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:8:22-63
+14    <uses-permission android:name="android.permission.CALL_PHONE" />
+14-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:73:5-69
+14-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:73:22-66
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:75:5-67
+15-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:75:22-64
+16
+17    <dist:module dist:instant="true" />
+17-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:77:5-40
+17-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:77:18-37
+18
+19    <meta-data
+19-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:78:5-79:45
+20        android:name="com.google.android.gms.vision.DEPENDENCIES"
+20-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:78:16-73
+21        android:value="barcode" />
+21-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:79:9-32
+22
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.firebase:firebase-database:16.0.4] /home/ritesh/.gradle/caches/transforms-2/files-2.1/a5ed1710e664cecd3a21633e372523c8/jetified-firebase-database-16.0.4/AndroidManifest.xml:22:5-79
+23-->[com.google.firebase:firebase-database:16.0.4] /home/ritesh/.gradle/caches/transforms-2/files-2.1/a5ed1710e664cecd3a21633e372523c8/jetified-firebase-database-16.0.4/AndroidManifest.xml:22:22-76
+24
+25    <application
+25-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:10:5-72:19
+26        android:allowBackup="true"
+26-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:11:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.1] /home/ritesh/.gradle/caches/transforms-2/files-2.1/241b89e013db22b59a4d22b3f2fa0913/core-1.0.1/AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:hardwareAccelerated="false"
+29-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:12:9-44
+30        android:icon="@mipmap/ic_credenz2"
+30-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:13:9-43
+31        android:label="@string/app_name"
+31-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:14:9-41
+32        android:largeHeap="true"
+32-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:15:9-33
+33        android:supportsRtl="true"
+33-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:16:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:17:9-40
+36        <activity
+36-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:19:9-23:20
+37            android:name="com.pisb.credenz19.addreceiptqrcode"
+37-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:19:19-69
+38            android:noHistory="true"
+38-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:20:13-37
+39            android:screenOrientation="portrait" >
+39-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:21:13-49
+40        </activity>
+41        <activity
+41-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:24:9-28:20
+42            android:name="com.pisb.credenz19.addreceipts"
+42-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:24:19-64
+43            android:noHistory="true"
+43-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:25:13-37
+44            android:screenOrientation="portrait" >
+44-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:26:13-49
+45        </activity>
+46        <activity
+46-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:29:9-33:20
+47            android:name="com.pisb.credenz19.receipt"
+47-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:29:19-60
+48            android:noHistory="true"
+48-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:30:13-37
+49            android:screenOrientation="portrait" >
+49-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:31:13-49
+50        </activity>
+51        <activity
+51-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:34:9-40:20
+52            android:name="com.pisb.credenz19.Main3Activity"
+52-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:35:13-60
+53            android:noHistory="false"
+53-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:37:13-38
+54            android:screenOrientation="portrait"
+54-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:38:13-49
+55            android:theme="@style/AppTheme.NoActionBar" >
+55-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:36:13-56
+56        </activity>
+57        <activity
+57-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:41:9-43:51
+58            android:name="com.pisb.credenz19.eventdetail1"
+58-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:41:19-65
+59            android:noHistory="true"
+59-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:42:13-37
+60            android:screenOrientation="portrait" />
+60-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:43:13-49
+61        <activity
+61-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:44:9-52:20
+62            android:name="com.pisb.credenz19.splashscreen"
+62-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:44:19-65
+63            android:noHistory="true"
+63-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:45:13-37
+64            android:screenOrientation="portrait" >
+64-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:46:13-49
+65            <intent-filter>
+65-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:47:13-51:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:48:17-69
+66-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:48:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:50:17-77
+68-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:50:27-74
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:53:9-55:51
+72            android:name="com.pisb.credenz19.ping"
+72-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:53:19-57
+73            android:noHistory="true"
+73-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:54:13-37
+74            android:screenOrientation="portrait" />
+74-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:55:13-49
+75        <activity
+75-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:56:9-58:51
+76            android:name="com.pisb.credenz19.sponsors"
+76-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:56:19-61
+77            android:noHistory="true"
+77-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:57:13-37
+78            android:screenOrientation="portrait" />
+78-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:58:13-49
+79        <activity
+79-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:59:9-61:51
+80            android:name="com.pisb.credenz19.about_us"
+80-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:59:19-61
+81            android:noHistory="true"
+81-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:60:13-37
+82            android:screenOrientation="portrait" />
+82-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:61:13-49
+83        <activity
+83-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:62:9-64:51
+84            android:name="com.pisb.credenz19.contact_us"
+84-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:62:19-63
+85            android:noHistory="true"
+85-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:63:13-37
+86            android:screenOrientation="portrait" />
+86-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:64:13-49
+87        <activity
+87-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:65:9-67:51
+88            android:name="com.pisb.credenz19.report"
+88-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:65:19-59
+89            android:noHistory="true"
+89-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:66:13-37
+90            android:screenOrientation="portrait" />
+90-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:67:13-49
+91
+92        <meta-data
+92-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:69:9-71:57
+93            android:name="preloaded_fonts"
+93-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:70:13-43
+94            android:resource="@array/preloaded_fonts" />
+94-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:71:13-54
+95
+96        <activity
+96-->[com.karumi:dexter:5.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/e20d5bf60bf00853ac63297e0b9ef6e5/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
+97            android:name="com.karumi.dexter.DexterActivity"
+97-->[com.karumi:dexter:5.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/e20d5bf60bf00853ac63297e0b9ef6e5/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
+98            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Add this to enable bar code reader -->
+98-->[com.karumi:dexter:5.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/e20d5bf60bf00853ac63297e0b9ef6e5/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
+99        <meta-data
+99-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:78:5-79:45
+100            android:name="com.google.android.gms.vision.DEPENDENCIES"
+100-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:78:16-73
+101            android:value="barcode" />
+101-->/home/ritesh/AndroidStudioProjects/main/app/src/main/AndroidManifest.xml:79:9-32
+102
+103        <activity
+103-->[com.google.android.gms:play-services-base:17.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/951b5e7f354daaaf8db57d3e12181016/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+104            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+104-->[com.google.android.gms:play-services-base:17.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/951b5e7f354daaaf8db57d3e12181016/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+105            android:exported="false"
+105-->[com.google.android.gms:play-services-base:17.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/951b5e7f354daaaf8db57d3e12181016/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+106-->[com.google.android.gms:play-services-base:17.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/951b5e7f354daaaf8db57d3e12181016/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+107
+108        <provider
+108-->[com.google.firebase:firebase-common:16.0.3] /home/ritesh/.gradle/caches/transforms-2/files-2.1/f95260a67cb803349bee5ed675c63995/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+109            android:name="com.google.firebase.provider.FirebaseInitProvider"
+109-->[com.google.firebase:firebase-common:16.0.3] /home/ritesh/.gradle/caches/transforms-2/files-2.1/f95260a67cb803349bee5ed675c63995/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+110            android:authorities="com.pisb.credenz19.firebaseinitprovider"
+110-->[com.google.firebase:firebase-common:16.0.3] /home/ritesh/.gradle/caches/transforms-2/files-2.1/f95260a67cb803349bee5ed675c63995/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+111            android:exported="false"
+111-->[com.google.firebase:firebase-common:16.0.3] /home/ritesh/.gradle/caches/transforms-2/files-2.1/f95260a67cb803349bee5ed675c63995/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+112            android:initOrder="100" />
+112-->[com.google.firebase:firebase-common:16.0.3] /home/ritesh/.gradle/caches/transforms-2/files-2.1/f95260a67cb803349bee5ed675c63995/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:17.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/f705674595382a91d5f3b8f28ee80661/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:17.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/f705674595382a91d5f3b8f28ee80661/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:17.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/f705674595382a91d5f3b8f28ee80661/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+117
+118        <provider
+118-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/28573f39daf86dfd120980829755ad4b/lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+119            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/28573f39daf86dfd120980829755ad4b/lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+120            android:authorities="com.pisb.credenz19.lifecycle-process"
+120-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/28573f39daf86dfd120980829755ad4b/lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+121            android:exported="false"
+121-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/28573f39daf86dfd120980829755ad4b/lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+122            android:multiprocess="true" />
+122-->[androidx.lifecycle:lifecycle-process:2.0.0] /home/ritesh/.gradle/caches/transforms-2/files-2.1/28573f39daf86dfd120980829755ad4b/lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+123    </application>
+124
+125</manifest>

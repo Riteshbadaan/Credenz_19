@@ -1,0 +1,45 @@
+<resources>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        <item name="android:windowActivityTransitions">true</item>-->
+<!--        <item name="android:dropDownListViewStyle">@style/PopupMenuListView</item>-->
+<!--        &lt;!&ndash;        <item name="android:actionBarWidgetTheme">@style/PopupMenuTextView</item>&ndash;&gt;-->
+<!--        <item name="android:popupMenuStyle">@style/PopupMenu</item>-->
+
+        <!-- Change Overflow Menu ListView Item Height & Property -->
+
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+
+
+
+<!--    &lt;!&ndash; Change Overflow Menu ListView Divider Property &ndash;&gt;-->
+<!--    <style name="PopupMenuListView" parent="@android:style/Widget.Holo.ListView.DropDown">-->
+<!--        <item name="android:divider">#FF0000</item>-->
+<!--        <item name="android:dividerHeight">2dp</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Change Overflow Menu ListView Text Size and Text Size &ndash;&gt;-->
+<!--&lt;!&ndash;    <style name="PopupMenuTextView" parent="@style/android:Theme.Holo.Light">&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:textColor">#00FF00</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:textSize">5sp</item>&ndash;&gt;-->
+<!--&lt;!&ndash;    </style>&ndash;&gt;-->
+
+<!--    &lt;!&ndash; Change Overflow Menu Background &ndash;&gt;-->
+<!--    <style name="PopupMenu" parent="android:Widget.Holo.Light.ListPopupWindow">-->
+<!--        <item name="android:popupBackground">#888888</item>-->
+<!--    </style>-->
+
+</resources>

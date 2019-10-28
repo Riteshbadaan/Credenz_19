@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/mainbg3">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/custtoolbar"
+        android:id="@+id/reporttool"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Developers"
+                    android:enabled="false"
+                    android:fontFamily="@font/titillium_web"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="30dp"
+                    android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:background="#01081F">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ritesh" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/titillium_web"
+                    android:text="Ritesh Badaan"
+                    android:enabled="false"
+                    android:textColor="#ffffff"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/riteshphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:autoLink="phone"
+                    android:fontFamily="@font/titillium_web"
+                    android:padding="3dp"
+                    android:text="+91 9469087466"
+                    android:textSize="21dp" />
+            </LinearLayout>
+
+
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:layout_marginBottom="13dp"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:scaleType="fitCenter"-->
+<!--                android:src="@drawable/ritesh" />-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Ritesh Badaan"-->
+<!--                android:fontFamily="@font/titillium_web"-->
+<!--                android:textColor="#ffffff"-->
+<!--                android:textSize="27dp"-->
+<!--                android:layout_marginBottom="12dp"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/riteshphone"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:text="+91 9469087466"-->
+<!--                android:padding="3dp"-->
+<!--                android:fontFamily="@font/titillium_web"-->
+<!--                android:textSize="22dp"-->
+<!--                android:autoLink="phone"-->
+<!--                android:layout_marginBottom="12dp"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/riteshemail"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="badaan.ritesh197@gmail.com"-->
+<!--                android:textSize="20dp"-->
+<!--                android:autoLink="email"-->
+<!--                android:padding="3dp"-->
+<!--                android:fontFamily="@font/titillium_web"/>-->
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:background="#01081F"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/titillium_web"
+                android:text="Contact Me at:"
+                android:enabled="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/riteshemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="email"
+                android:layout_gravity="center"
+                android:fontFamily="@font/titillium_web"
+                android:gravity="center"
+                android:text="ritesh.badaan197@gmail.com"
+                android:textSize="23dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

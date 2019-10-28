@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/custtoolbar"
+            android:id="@+id/pingtool"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/final_ping"/>
+
+
+
+        <TextView
+            android:id="@+id/pingtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:text="Ping"
+            android:enabled="false"
+            android:fontFamily="@font/titillium_web"
+            android:textSize="17dp"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
+            android:textColor="@android:color/background_light"
+            android:gravity="left"/>
+        <TextView
+            android:id="@+id/pingmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:fontFamily="@font/titillium_web"
+            android:gravity="center"
+            android:textColor="#0689F3"
+            android:text="Read P.I.N.G Issue Here"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pisb.credenz19">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_credenz2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.pisb.credenz19.addreceiptqrcode"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.pisb.credenz19.addreceipts"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.pisb.credenz19.receipt"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.pisb.credenz19.Main3Activity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:noHistory="false"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name="com.pisb.credenz19.eventdetail1"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.pisb.credenz19.splashscreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.pisb.credenz19.ping"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.pisb.credenz19.sponsors"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.pisb.credenz19.about_us"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.pisb.credenz19.contact_us"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.pisb.credenz19.report"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <dist:module dist:instant="true" />
+    <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES"
+        android:value="barcode"></meta-data>
+
+</manifest>
